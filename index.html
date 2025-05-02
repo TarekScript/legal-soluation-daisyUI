@@ -47,6 +47,7 @@
                     colors: {
                         clifford: '#da373d',
                         'legal-primary': '#B68C5A',
+                        'legal-secondory': '#F3F3F3',
                     }
                 }
             }
@@ -219,7 +220,7 @@
                 in some form, by injected humour.</p>
 
             <!-- faq content  -->
-            <div class="grid grid-cools-1 justify-between lg:grid-cols-2 gap-5 mt-5 md:mt-10 p-4">
+            <div class="grid grid-cools-1 justify-between lg:grid-cols-2 gap-5 mt-5 md:mt-10 p-4 items-center">
                 <!-- text content  -->
                 <div class="space-y-5 order-2 lg:order-1">
                     <div class="collapse  collapse-plus bg-base-200">
@@ -261,9 +262,107 @@
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
 
+        <!-- Contact With Us  -->
+        <section class="my-8 md:my-20 p-5">
+            <h1 class="text-4xl text-center font-Garamond font-extrabold">Contact With Us</h1>
+            <p class="my-5 text-center font-medium text-[#707070]">There are many variations of passages of Lorem Ipsum
+                available, but the
+                majority have <br>
+                suffered alteration
+                in some form, by injected humour.</p>
+
+            <!-- Contact us box  -->
+            <div class="mt-5 md:mt-14 grid grid-cools-1 lg:grid-cols-2 gap-8 items-center ">
+                <!-- contact infos -->
+                <div class="grid grid-cools-1 md:grid-cols-2">
+                    <!-- adress box  -->
+                    <div
+                        class="flex flex-col items-center bg-legal-secondory p-14 md:border-r-2 border-b-2 border-[#CFCFCF]">
+                        <img src="images/location.png" alt="">
+                        <h3 class="text-lg font-extrabold">Address</h3>
+                        <p>A108 Adam Street, <br>New York, NY 535022</p>
+                    </div>
+                    <!-- call us box  -->
+                    <div class="flex flex-col items-center bg-legal-secondory p-14 border-b-2 border-[#CFCFCF]">
+                        <img src="images/call.png" alt="">
+                        <h3 class="text-lg font-extrabold">Call Us</h3>
+                        <p>+88 01750 00 00 00 <br>
+                            +88 01750 00 00 00</p>
+                    </div>
+                    <!-- email box  -->
+                    <div
+                        class="flex flex-col items-center bg-legal-secondory p-14 border-b-2 md:border-b-0 md:border-r-2 border-[#CFCFCF]">
+                        <img src="images/email.png" alt="">
+                        <h3 class="text-lg font-extrabold">Email Us</h3>
+                        <p>info@gmail.com <br>
+                            info@gmail.com</p>
+                    </div>
+                    <!-- time box  -->
+                    <div class="flex flex-col items-center bg-legal-secondory p-14">
+                        <img src="images/time.png" alt="">
+                        <h3 class="text-lg font-extrabold">Working Box</h3>
+                        <p>Mon-Fri: 9AM to 5PM <br>
+                            Sunday: 9AM to 1 PM</p>
+                    </div>
+                </div>
+
+                <!-- contact form  -->
+                <div class="space-y-8">
+                    <input type="text" placeholder="Your Name"
+                        class="input input-bordered w-full max-w-full bg-legal-secondory border-none" />
+                    <input type="text" placeholder="Your Name"
+                        class="input input-bordered w-full max-w-full bg-legal-secondory border-none" />
+                    <input type="text" placeholder="Subject"
+                        class="input input-bordered w-full max-w-full bg-legal-secondory border-none" />
+                    <textarea class="textarea w-full h-32 max-w-full bg-legal-secondory border-none"
+                        placeholder="Bio"></textarea>
+                    <button class="btn w-full max-w-full bg-legal-primary border-none text-white text-xl">Send
+                        Message</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer section  -->
+    <footer class="footer bg-black  text-white p-10  lg:px-24">
+        <nav>
+            <img src="images/logo.png" alt="">
+            <p class="max-w-48 mt-5">There are many variations of passages of Lorem Ipsum available, but the majority
+                have
+                suffered alteration
+                in some form, by injected humour.</p>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Usefull Links</h6>
+            <a class="link link-hover">Homes</a>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Cases</a>
+            <a class="link link-hover">Blogs</a>
+            <a class="link link-hover">Contact Us</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Contact Now</h6>
+            <a class="link link-hover">555 4th 5t NW, <br> Washington
+                DC 20530, United States</a>
+            <a class="link link-hover my-2">+88 01750 000 000 <br>
+                +88 01750 000 000</a>
+            <a class="link link-hover">info@gmail.com <br>
+                info@gmail.com</a>
+        </nav>
+        <form>
+            <h6 class="font-extrabold text-xl text-white">Subscribe</h6>
+            <fieldset class="form-control w-80">
+                <label class="label">
+                    <span class="label-text text-white mb-2">Subscribe for our latest & Articles. We Won’t Give You Spam
+                        Mails</span>
+                </label>
+                <div class="join ">
+                    <input type="text" placeholder="username@site.com" class="input border-none join-item" />
+                    <button class="btn border-none bg-legal-primary text-white  join-item">Subscribe</button>
+                </div>
+            </fieldset>
+        </form>
     </footer>
 </body>
 
